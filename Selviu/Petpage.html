@@ -1,0 +1,197 @@
+<style>
+body, div, a {
+	font: 10pt Arial;
+	color: #000000;
+	text-align: center;
+}
+body, div {
+    background: #aaaaaa;
+}
+td, tr, table {
+	font: 7pt Arial;
+	color: #000000;
+	padding: 0px;
+}
+table {
+	background: none;
+}
+img {
+    border: 5px solid #33dddd;
+	border-right: 5px solid #33aaaa;
+	border-bottom: 5px solid #33aaaa;
+}
+h1 {
+	padding-top: 1px;
+	padding-left: 5px;
+	padding-bottom: 25px;
+	height: 16px;
+	
+	margin: 0px;
+	
+    border: 5px solid #33dddd;
+	border-right: 5px solid #33aaaa;
+	border-bottom: 5px solid #33aaaa;
+    
+	font-size: 25pt;
+	font-family: Consolas;
+	font-weight: bolder;
+	
+	text-align: center;
+	color: #00a0a0;
+    
+	background: #dddddd;
+}
+b {
+	color: #00a0a0;
+	font-weight: bold;
+}
+a:link, a:active, a:visited {
+	text-decoration: underline;
+	color: #004545;
+}
+a:hover {
+	color: #33aaaa;
+}
+#main {
+    width: 996px;
+
+    text-align: left;
+    vertical-align: top;
+
+    margin: 0 auto;
+}
+#nav {
+	margin: 20px;
+}
+#nav a {
+	text-decoration: none;
+	color: #000000;
+	
+	background: #dddddd;
+	
+	border-right: 3px solid;
+	border-bottom: 3px solid;
+	border-color: #999999;
+	
+	margin: -2;
+	padding: 12px 12px;
+}
+#nav a:hover {
+	color: #33aaaa;
+	
+	background: #cccccc;
+	border-color: #777777;
+}
+#top {
+	margin: 0 auto;
+	width: 540px;
+	height: 260px;
+}
+#top p {
+	text-align: left;
+	margin: 10px;
+}
+#pic {
+	width: 250px;
+	height: 250px;
+	float:left;
+	background: #dddddd;
+}
+#stats {
+	width: 250px;
+	height: 250px;
+	float:left;
+	clear: right;
+	
+    border: 5px solid #33dddd;
+	border-right: 5px solid #33aaaa;
+	border-bottom: 5px solid #33aaaa;
+	
+	padding: 0px 10px;
+	
+	background: #dddddd;
+	font-size: 24px;
+	font-weight: bold;
+	font-family: consolas;
+}
+#content {
+	margin: 10px auto;
+	width: 540px;
+	clear: left;
+}
+#content p {
+	margin: 0px;
+	padding: 10px;
+	
+	border: 5px solid #33dddd;
+	border-right: 5px solid #33aaaa;
+	border-bottom: 5px solid #33aaaa;
+	
+    font-size: 18px;
+    
+	background: #dddddd;
+}
+#content a {
+    font-size: 18px;
+    text-decoration: none;
+}
+.footer {
+	margin: 100px;
+	padding: 10px 0px;
+	
+	background-color: #aaf6f6;
+	border: 2px solid #00a0a0;
+	
+	color: #000000;
+	text-align: center;
+}
+</style>
+
+<div id="main">
+    <div id="nav">
+        <a href="home/index.phtml">HOME</a>
+        <a href="/explore.phtml">EXPLORE</a>
+        <a href="/games/">GAMES</a>
+        <a href="/objects.phtml">NEOPIA CENTRAL</a>
+        <a href="/community/index.phtml">COMMUNITY</a>
+        <a href="/neoboards/index.phtml">BOARDS</a>
+        <a href="/help.phtml">HELP</a>
+    </div>
+    <div id="top">
+        <img src="https://pets.neopets.com/cpn/selviu/1/4.png" alt="Selviu's picture" id="pic" />
+        <div id="stats">
+            <p>
+                Name: &ensp;#NAME<br />
+                Age: &ensp;&ensp;#HOURSh<br />
+                Lvl: &ensp;&ensp;#LEVEL<br />
+                HP: &ensp;&ensp;&ensp;#CURRENT_HP/#MAX_HP<br />
+                Str: &ensp;&ensp;#STRENGTH<br />
+                Def: &ensp;&ensp;#DEFENCE<br />
+                Spd: &ensp;&ensp;#MOVE<br />
+                Int: &ensp;&ensp;#INTELLIGENCE
+            </p>
+        </div>
+    </div>
+    <div id="content">
+        <h1>Selviu and Hissis</h1>
+        <p>
+            Selviu is an Ice Hissi morphed via a potion, but do not ask about the past; that would be rude!<br />
+            Selviu is owned by Hissi and snake enthusiast <a href="/userlookup.phtml?user=green_menace">#OWNER</a>.<br />
+            To get a Hissi of your own you can create one on May 4th, or use one of the various Hissi Morphing Potions!<br />
+        </p>
+        <h1>Snakes</h1>
+        <p>
+            Snakes are good creatures.<br />
+            Despite what many people think, snakes usually only attack when provoked or threatened.<br />
+            Additionally, snakes aren't slimey but they are rather dry and smooth to the touch.
+        </p>
+        <h1>Thanks for visiting!</h1>
+        <p>
+            This Page is still a work in progress!<br />
+            Please feel free to visit again at a later time!
+        </p>
+        <div class="footer">
+            <a href="/userlookup.phtml?user=green_menace">Link to #OWNER's Profile</a>
+        </div>
+    </div>
+</div>
