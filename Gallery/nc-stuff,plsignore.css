@@ -1,0 +1,33 @@
+
+body {
+    background-image: ;
+    background: #223344;
+}
+#header {
+    border-bottom: 1px solid black;
+    height: 78px;
+}
+td.sidebar {
+    padding-top: 44px;
+}
+#footer, #ban, ul.dropdown {
+    display: none;
+    visibility: hidden;
+}
+.sidebar, #header, #main, .sf, .user, .eventIcon, #nst, #header  a:visited, #header a:link, .sf a:visited, .sf a:link, .sf a:hover {
+    background-image: ;
+    background: #447788;
+    color: #000000;
+}
+.sidebarHeader {
+    color: #00a0a0;
+    background: #223344;
+}
+a:link, a:visited, a:hover {
+    color: #223344;
+}
+.sidebarModule, .itemimg{
+    border: 5px solid #33dddd;
+    border-right: 5px solid #33aaaa;
+    border-bottom: 5px solid #33aaaa;
+}
